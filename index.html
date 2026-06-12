@@ -522,14 +522,16 @@
         </div>
     </section>
 
-        <style id="heritage-css">#heritage{display:block;}#heritage .about-content{max-width:none;width:100%;}#heritage .heritage-body{column-count:2;column-gap:56px;margin-top:8px;}#heritage .heritage-body p{break-inside:avoid;-webkit-column-break-inside:avoid;}@media (max-width:768px){#heritage .heritage-body{column-count:1;}}</style>
+            <style id="heritage-css">#heritage .about-content{max-width:none;width:100%;}#heritage .h-grid{display:grid;grid-template-columns:minmax(240px,1fr) minmax(0,1.55fr);gap:56px;align-items:start;}#heritage .h-grid h2{margin:0;}#heritage .h-prose p:first-child{margin-top:0;}@media (max-width:820px){#heritage .h-grid{grid-template-columns:1fr;gap:18px;}}</style>
     <section class="about-section" id="heritage">
         <div class="about-content">
-            <h2>A Storied Himalayan Heritage</h2>
-            <div class="heritage-body">
-                <p>Cloud End is one of the oldest estates in Mussoorie. The original bungalow was raised in the early colonial era by a British officer, Major Swetenham, who, as local legend has it, married the daughter of a local chief and named the house “Cloud End” after a peak near his family home in Wales. It was among the first grand houses on the western edge of the hill station, and for generations it remained with the Swetenham family.</p>
-                <p>After Independence, Cloud End became one of the first of these great Mussoorie estates to pass into Indian hands, acquired by the late Shri Durga Ram (D.R.) Agarwal, the first Indian owner of this private forest.</p>
-                <p>The estate later passed to his son, Diwaker Agarwal.</p>
+            <div class="h-grid">
+                <div><h2>A Storied Himalayan Heritage</h2></div>
+                <div class="h-prose">
+                    <p>Cloud End is one of the oldest estates in Mussoorie. The original bungalow was raised in the early colonial era by a British officer, Major Swetenham, who, as local legend has it, married the daughter of a local chief and named the house “Cloud End” after a peak near his family home in Wales. It was among the first grand houses on the western edge of the hill station, and for generations it remained with the Swetenham family.</p>
+                    <p>After Independence, Cloud End became one of the first of these great Mussoorie estates to pass into Indian hands, acquired by the late Shri Durga Ram (D.R.) Agarwal, the first Indian owner of this private forest.</p>
+                    <p>The estate later passed to his son, Diwaker Agarwal.</p>
+                </div>
             </div>
         </div>
     </section>
